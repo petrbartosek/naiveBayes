@@ -1,0 +1,33 @@
+.menu{
+    display: flex;
+    list-style-type: none;
+    text-transform: lowercase;
+    text-decoration: none;
+    padding: 28px 0px 28px 0px;
+    justify-content: flex-start;
+    background-color: #ffffff;
+}
+
+.menu li a {
+    color: #000000;
+    margin: 0 20px 0 20px ;
+    text-decoration: none;
+    transition: all 0.5s;
+
+    font-size: 14px;
+    font-weight: 900;
+    padding: 28px 15px 28px 15px;
+}
+
+.menu li a:hover{
+    color: #dd0e80;
+    margin: 0 20px 0 20px ;
+    text-decoration: none;
+    border-bottom: 2px solid #dd0e80;
+}
+.menu li a.active{
+    color: #dd0e80;
+    margin: 0 20px 0 20px ;
+    text-decoration: none;
+    border-bottom: 2px solid #dd0e80;
+}

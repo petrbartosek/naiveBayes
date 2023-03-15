@@ -1,0 +1,116 @@
+.classifier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20vh 20vh;
+}
+form {
+    margin: 20px;
+}
+
+form input::file-selector-button   {
+        padding: 15px 20px;
+        background: none;
+        color: #dd0e80;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+        border: 2px solid #dd0e80;
+        transition: all 0.2s;
+        margin: 10px 20px;
+  }
+form input::file-selector-button:hover   {
+        color: #ffffff;
+        background-color: #dd0e80;
+        cursor: pointer;
+  }
+
+.classified-feedbacks {
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.classifier .table-header {
+    display: grid;
+    grid-template-columns: 1fr 15fr 5fr 5fr 5fr 5fr;
+    flex-direction: row;
+    padding: 5px 0px;
+    border-radius: 5px;
+    align-items: center;
+    margin: 3px 0px;
+    font-weight: 700;
+    background-color: rgb(222,222,222);
+    list-style-type: none;
+    
+}
+.classified-feedbacks ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 15fr 5fr 5fr 5fr 5fr;
+    flex-direction: row;
+    padding: 10px 0px;
+    background-color: rgb(242,242,242);
+    border-radius: 5px;
+    align-items: center;
+    margin: 3px 0px;
+    
+}
+.classified-feedbacks ul li{
+    list-style-type: none;
+    padding: 10px 14px;
+    margin: 0 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+.classified-feedbacks ul li:nth-child(2){
+font-style: italic;
+}
+.classified-feedbacks ul li:nth-child(2):before,
+.classified-feedbacks ul li:nth-child(2):after{
+content: "'";
+}
+
+.classified-feedbacks .positive{
+    background-color: rgb(205, 234, 205);
+    background-color: #93c47d;
+    color: white;
+    text-align: center;
+}
+
+.classified-feedbacks .negative{
+    background-color: #fec1e3;
+    background-color: #a64d79ff;
+    text-align: center;
+    color: white;
+    
+}
+
+.classified-feedbacks .neutral{
+    background-color: grey;
+    text-align: center;
+}
+
+.likelihood-data{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.likelihood-data p{
+margin: 2px 0px;
+}
+
+.pink-big-text {
+    color:#dd0e80;
+    font-weight: 700;
+}
+.positive {
+    color: #93c47d;
+}
+.negative {
+    color: #a64d79;
+}
+.neutral {
+    color: #c2c2c2;
+}
