@@ -107,9 +107,11 @@ margin: 2px 0px;
 }
 .positive {
     color: #93c47d;
+    color: #84c566;
 }
 .negative {
     color: #a64d79;
+    color: #dd0e80;
 }
 .neutral {
     color: #c2c2c2;

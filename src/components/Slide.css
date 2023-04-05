@@ -9,7 +9,7 @@
     align-items: center;
     padding-top: 50px;
 }
-.presentation #logo{
+.presentation .presentation-title svg{
     width: 3vw;
     margin-right: 30px;
 }

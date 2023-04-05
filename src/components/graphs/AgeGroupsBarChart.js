@@ -6,7 +6,8 @@ import {
     YAxis,
     CartesianGrid,
     Tooltip,
-    Legend
+    Legend,
+    LabelList
 } from "recharts";
 
 const data = [
@@ -49,9 +50,18 @@ export default function App() {
             <YAxis />
             <Tooltip />
             <Legend />
-            <Bar dataKey="positive" fill="#93c47d" />
-            <Bar dataKey="negative" fill="#a64d79" />
-            <Bar dataKey="neutral" fill="#c2c2c2" />
+
+            <Bar dataKey="positive" fill="#84c566" >
+                <LabelList dataKey="positive" position='top' />
+            </Bar>
+
+            <Bar dataKey="negative" fill="#dd0e80">
+                <LabelList dataKey="negative" position='top' />
+            </Bar>
+
+            <Bar dataKey="neutral" fill="#c2c2c2">
+                
+            </Bar>
         </BarChart>
     );
 }

@@ -10,12 +10,13 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
   { 
-    path: "/",
+    path: "/sentisquare",
     element: <RootLayout />,
     children: [
-      { path: "/", element: <Presentation /> },
-      { path: "/classifier", element: <Classifier /> },
-      { path: "/Training", element: <Training /> }
+      { index: true, element: <Presentation /> },
+      { path: "presentation", element: <Presentation /> },
+      { path: "training", element: <Training /> },
+      { path: "classifier", element: <Classifier /> }
 
     ]
   },

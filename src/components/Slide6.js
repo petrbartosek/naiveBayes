@@ -3,6 +3,7 @@ import positiveTopics from '../assets/classifiedPositiveTopics'
 import negativeTopics from '../assets/classifiedNegativeTopics'
 import allTopics from '../assets/classifiedTopics'
 import TopicsBarChart from '../components/graphs/TopicsBarChart'
+import Logo from '../assets/Logo'
 
 function Slide6({ forwardHandler, backwardHandler }) {
     const topics = allTopics.map( obj => {
@@ -24,14 +25,15 @@ function Slide6({ forwardHandler, backwardHandler }) {
     return (
         <div className='slide6'>
             <div className='presentation-title'>
-                <img id="logo" src="https://www.sentisquare.com/data/img/horse-black.svg" alt="logo" />
+                <Logo />
                 <h2>4. Discovery mode - Topics</h2>
             </div>
 
             <div className='content-container'>
                 <div className='left'>
                     
-                    <h4># Top 7 positive Topics</h4>
+                    <p># Top 7 positive Topics</p>
+                    ----------------------------------
                     {topTenPositive.map( (t,i) => (
                         <ul className='top-topics' key={t.topic}>
                             <li className='positive'>{i+1}. {t.topic}: </li>
@@ -39,8 +41,9 @@ function Slide6({ forwardHandler, backwardHandler }) {
                         </ul>
 
                     ))}
-                    <br />
-                    <h4># Top 7 negative Topics</h4>
+                    
+                    <p># Top 7 negative Topics</p>
+                    ----------------------------------
                     {topTenNegative.map( (t,i) => (
                         <ul className='top-topics' key={t.topic}>
                             <li className='negative'>{i+1}. {t.topic}: </li>

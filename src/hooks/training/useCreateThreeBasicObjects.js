@@ -68,8 +68,7 @@ function useCreateThreeBasicObjects(obj) {
         neutralScore: word.likelihoodNeutral * word.neutralPrior
       }
     })
-    console.log('classifier', classifier)
-
+ 
     return classifier
   }
 }

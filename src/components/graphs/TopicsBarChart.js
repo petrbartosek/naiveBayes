@@ -217,8 +217,8 @@ export default function App() {
       <Tooltip />
       <Legend />
       <ReferenceLine y={0} stroke="#000" />
-      <Bar dataKey="positive" fill="#93c47d" />
-      <Bar dataKey="negative" fill="#a64d79" />
+      <Bar dataKey="positive" fill="#84c566" />
+      <Bar dataKey="negative" fill="#dd0e80" />
     </BarChart>
   );
 }

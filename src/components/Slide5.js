@@ -1,5 +1,6 @@
 import Button from './Button';
 import AgeGroupsBarChart from './graphs/AgeGroupsBarChart'
+import Logo from '../assets/Logo'
 
 
 function Slide5({ forwardHandler, backwardHandler }) {
@@ -7,7 +8,7 @@ function Slide5({ forwardHandler, backwardHandler }) {
     return (
         <div className='slide5'>
             <div className='presentation-title'>
-                <img id="logo" src="https://www.sentisquare.com/data/img/horse-black.svg" alt="logo" />
+                <Logo />
                 <h2>3. Sentiment by age groups</h2>
             </div>
 

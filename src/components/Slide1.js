@@ -1,4 +1,6 @@
 import Button from './Button';
+import Logo from '../assets/Logo'
+import LogoHubert from '../assets/hubert.png'
 
 
 function Slide1({forwardHandler}) {
@@ -7,13 +9,14 @@ function Slide1({forwardHandler}) {
     return (
         <div className='slide1'>
             
-            <img id="logo" src="https://www.sentisquare.com/data/img/horse-black.svg" alt="logo" />
+            <Logo />
             <br />
             <h1>Customer Feedback Analysis</h1>
             <br />
             <p>fictional client:</p>
             <br />
-            <img id="clientLogo" src="https://www.sentisquare.com/data/img/albert.png" alt="logo" />
+            <img id="clientLogo" src={LogoHubert} alt="logo" />
+            
             <Button clickHandler={forwardHandler}>start
             </ Button>
         </div>

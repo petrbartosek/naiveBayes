@@ -14,8 +14,8 @@ function useLoadCleanFile() {
                 .replaceAll('"','')
                 .toLowerCase()
                 .split(/\r?\n/);
-            lines.pop();
-            lines.shift();
+            lines.pop(); // remove last line
+            lines.shift();  // remove first line
             setData(lines);
         }
     }

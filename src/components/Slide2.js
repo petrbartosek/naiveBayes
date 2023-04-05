@@ -1,4 +1,5 @@
 import Button from './Button';
+import Logo from '../assets/Logo'
 
 
 function Slide2({forwardHandler, backwardHandler}) {
@@ -6,11 +7,11 @@ function Slide2({forwardHandler, backwardHandler}) {
     return (
         <div className='slide2'>
             <div className='presentation-title'>
-                <img id="logo" src="https://www.sentisquare.com/data/img/horse-black.svg" alt="logo" />
-                <h2>Content</h2>
+            <Logo />
+             <h2>Content</h2>
             </div>
             
-            <p>1. Descriptive statistics</p>
+            <p>1. Quick results</p>
             <p>2. Sentiment by gender</p>
             <p>3. Sentiment by age</p>
             <p>4. Discovery mode - topics</p>

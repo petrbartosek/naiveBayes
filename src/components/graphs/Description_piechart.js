@@ -1,13 +1,15 @@
 import { PieChart, Pie, Sector, Cell, Legend } from "recharts";
 
 const data = [
-  { name: "Positive", value: 4253 },
-  { name: "Negative", value: 1021 },
+  { name: "Positive", value: 4253, share: "80%" },
+  { name: "Negative", value: 1021, share: "20%" },
   { name: "Neutral", value: 0 }
 ];
-const COLORS = ["#93c47d", "#a64d79", "#c2c2c2"];
+const COLORS = ["#84c566", "#dd0e80", "#c2c2c2"];
 
 export default function App() {
+
+
   return (
     <PieChart width={500} height={350}>
       <Pie

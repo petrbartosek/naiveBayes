@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="61.634155mm"
+   height="61.634155mm"
+   viewBox="0 0 61.634155 61.634155"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="horse-black.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clipPath833"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path831"
+         d="M 0,0 H 595.276 V 595.276 H 0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath847"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path845"
+         d="M 0,0 H 595.276 V 595.276 H 0 Z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="116.47422"
+     inkscape:cy="69.599684"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g823"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="925"
+     inkscape:window-height="632"
+     inkscape:window-x="2652"
+     inkscape:window-y="116"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(47.826065,-105.61409)">
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-122.00888,253.83332)"
+       inkscape:label="logo konik + napis zakladni"
+       id="g823">
+      <path
+         inkscape:connector-curvature="0"
+         id="path825"
+         style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="M 384.993,245.438 H 210.282 v 174.711 h 174.711 z" />
+      <g
+         id="g827">
+        <g
+           clip-path="url(#clipPath833)"
+           id="g829">
+          <g
+             transform="translate(342.3244,346.8199)"
+             id="g835">
+            <path
+               inkscape:connector-curvature="0"
+               id="path837"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="M 0,0 C -7.235,7.776 -9.105,10.237 -9.105,10.286 L -9.4,10.63 c -0.787,0.837 -2.805,3.544 -2.608,6.201 v 0.197 0.197 C -12.55,27.412 -29.233,33.22 -35.385,35.041 l -4.282,15.305 -5.364,-1.525 5.118,-18.357 1.526,-0.394 c 9.99,-2.658 20.276,-7.924 20.768,-12.993 -0.295,-5.167 3.199,-9.252 4.085,-10.187 0.541,-0.689 2.805,-3.593 9.449,-10.63 5.217,-5.611 2.609,-9.056 1.969,-9.745 -2.855,-2.411 -6.152,-5.167 -7.776,-6.398 -0.394,0.197 -0.935,0.443 -1.378,0.739 -13.436,9.006 -18.603,8.907 -20.227,8.464 l -0.345,-0.098 -0.295,-0.148 c -7.48,-4.281 -17.176,0.05 -17.274,0.099 l -2.362,-5.069 c 0.492,-0.246 11.368,-5.168 21.063,-0.542 20.129,-20.374 23.18,-47.59 23.623,-56.202 H -40.799 -53.84 -87.552 c 0.394,5.955 2.264,20.817 11.467,36.32 1.722,-0.935 3.494,-1.821 5.315,-2.559 3.937,-1.624 7.874,-3.15 11.565,-4.43 3.347,-1.279 6.3,-2.46 8.76,-3.543 l 2.215,5.118 c -2.559,1.083 -5.561,2.313 -9.055,3.691 -3.692,1.28 -7.481,2.707 -11.32,4.331 -3.691,1.526 -7.037,3.445 -9.99,5.709 -2.855,2.166 -5.266,4.921 -7.136,8.12 -1.821,3.101 -2.756,6.989 -2.756,11.566 0,5.02 1.181,9.449 3.494,13.14 2.362,3.79 5.463,7.038 9.154,9.597 3.74,2.608 7.973,4.577 12.599,5.856 l -1.477,5.365 c -5.216,-1.428 -10.039,-3.691 -14.272,-6.644 -4.331,-3.002 -7.923,-6.792 -10.729,-11.221 -2.854,-4.577 -4.33,-9.991 -4.33,-16.093 0,-5.561 1.181,-10.384 3.494,-14.371 2.264,-3.888 5.167,-7.185 8.612,-9.793 0.394,-0.296 0.788,-0.542 1.181,-0.837 -12.795,-21.359 -12.451,-41.34 -12.402,-42.177 l 0.05,-2.707 h 39.322 13.042 39.322 l 0.049,2.707 c 0.049,1.329 0.443,30.316 -18.505,55.12 1.821,-1.033 3.741,-2.214 5.611,-3.494 l 0.148,-0.098 c 3.1,-1.821 4.084,-1.821 4.576,-1.821 1.132,0 1.723,0 11.172,8.071 l 0.148,0.098 C 4.38,-15.01 7.481,-8.022 0,0" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

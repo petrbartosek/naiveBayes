@@ -5,9 +5,9 @@ import './Menu.css'
 function Menu() {
   return (
     <ul className='menu'>
-        <li><NavLink to='/training'>Model training</NavLink></li>
-        <li><NavLink to='/classifier'>Classifier</NavLink></li>
-        <li><NavLink to='/'>Presentation</NavLink></li>
+        <li><NavLink to='training'>Model training</NavLink></li>
+        <li><NavLink to='classifier'>Classifier</NavLink></li>
+        <li><NavLink to='presentation' >Presentation</NavLink></li>
     </ul>
   )
 }
