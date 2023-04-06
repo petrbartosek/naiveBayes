@@ -8,7 +8,7 @@ import './Classifier.css'
 
 function Classifier() {
 
-  // 1. load and clean data
+  // 1. load and clean crude data
   const { loadFileHandler, data } = useLoadCleanFile();
 
   // 2. evaluate and match feedback 
