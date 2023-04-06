@@ -10,7 +10,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
   { 
-    path: "/sentisquare",
+    path: "/engine2",
     element: <RootLayout />,
     children: [
       { index: true, element: <Presentation /> },
